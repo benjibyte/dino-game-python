@@ -9,7 +9,7 @@ tile_size = 16
 
 
 def sky(surface, scale=2):
-    sky_sprite = "images/backgrounds/sky.png"
+    sky_sprite = "sky.png"
     background = pygame.image.load(sky_sprite)
     background_w, background_h = background.get_size()
     scaled_background = pygame.transform.scale(background, (background_w * scale, background_h * scale))
